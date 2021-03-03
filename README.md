@@ -64,5 +64,13 @@ https://pjh3749.tistory.com/281
 
 https://kwonnam.pe.kr/wiki/java/jackson
 
+### JsonFilter
+
+https://kwonnam.pe.kr/wiki/java/jackson/jsonfilter
+
+### JsonMixin
+
+https://medium.com/@shankar.ganesh.1234/jackson-mixin-a-simple-guide-to-a-powerful-feature-d984341dc9e2
+
 # @JsonAlias, @JsonIngnore, @Json BackReference, @JsonManagedReference
 
