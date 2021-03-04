@@ -74,3 +74,6 @@ https://medium.com/@shankar.ganesh.1234/jackson-mixin-a-simple-guide-to-a-powerf
 
 # @JsonAlias, @JsonIngnore, @Json BackReference, @JsonManagedReference
 
+### JsonView
+
+https://www.baeldung.com/jackson-json-view-annotation
