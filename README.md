@@ -77,3 +77,7 @@ https://medium.com/@shankar.ganesh.1234/jackson-mixin-a-simple-guide-to-a-powerf
 ### JsonView
 
 https://www.baeldung.com/jackson-json-view-annotation
+
+https://www.google.com/search?sxsrf=ALeKk00pvrsCTMiVC6mDLTCw0NgpWfH7nA%3A1614951996777&ei=PDZCYIf_Lv2Fr7wPraOdiAM&q=jsonAnnotation+same+key+multiple+values+java&oq=jsonAnnotation+same+key+multiple+values+java&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgjELACECdQgxdYtiRg0CloAnAAeACAAYQBiAHrCZIBBDAuMTGYAQCgAQGqAQdnd3Mtd2l6yAEBwAEB&sclient=gws-wiz&ved=0ahUKEwiHjeOApZnvAhX9wosBHa1RBzEQ4dUDCA0&uact=5
+
+수정 예정
