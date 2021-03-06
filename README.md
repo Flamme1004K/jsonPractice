@@ -80,4 +80,24 @@ https://www.baeldung.com/jackson-json-view-annotation
 
 https://www.google.com/search?sxsrf=ALeKk00pvrsCTMiVC6mDLTCw0NgpWfH7nA%3A1614951996777&ei=PDZCYIf_Lv2Fr7wPraOdiAM&q=jsonAnnotation+same+key+multiple+values+java&oq=jsonAnnotation+same+key+multiple+values+java&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgjELACECdQgxdYtiRg0CloAnAAeACAAYQBiAHrCZIBBDAuMTGYAQCgAQGqAQdnd3Mtd2l6yAEBwAEB&sclient=gws-wiz&ved=0ahUKEwiHjeOApZnvAhX9wosBHa1RBzEQ4dUDCA0&uact=5
 
-수정 예정
+https://fasterxml.github.io/jackson-annotations/javadoc/2.7/com/fasterxml/jackson/annotation/JsonFormat.Feature.html
+
+objectMapper = new ObjectMapper()
+        .configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true);
+You can also turn it on per usage:
+
+class SomeClass {
+
+  @JsonFormat(with = JsonFormat.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
+  private List<String> items;
+  // ...
+}
+    
+    
+    { "foo": "a string" }
+or this:
+
+{ "foo": ["array", "of", "strings" ] }
+
+
+
